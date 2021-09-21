@@ -4,11 +4,11 @@ import {Vendedor} from './vendedor.model';
 @model({
   settings: {
     foreignKeys: {
-      fk_vehiculo_id_proveedor: {
-        name: 'fk_vehiculo_id_proveedor',
-        entity: 'Proveedor',
+      fk_cliente_id_vendedor: {
+        name: 'fk_cliente_id_vendedor',
+        entity: 'Vendedor',
         entityKey: 'id',
-        foreignKey: 'id_proveedor',
+        foreignKey: 'id_vendedor',
       },
       fk_vehiculo_id_marca: {
         name: 'fk_vehiculo_id_marca',
